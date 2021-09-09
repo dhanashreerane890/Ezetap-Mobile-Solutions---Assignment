@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "607627261486",
+    "project_id": "ezetap-mobile-solutions-app",
+    "storage_bucket": "ezetap-mobile-solutions-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:607627261486:android:91ef76d4ac43248e8111bf",
+        "android_client_info": {
+          "package_name": "com.masai.ezetap_mobile_solutions_assignment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "607627261486-6cd8qs1p6ojrql47u1m5h0v85svfc6j3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.masai.ezetap_mobile_solutions_assignment",
+            "certificate_hash": "ac54fc8d3734ad3cd2d7d1dcace585f8579f618f"
+          }
+        },
+        {
+          "client_id": "607627261486-b7lsbgpjc13dg2g32g9btb02m16m3l3j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTYqdFcTsorMA7jGyIeLEnoav9JJoL3gA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "607627261486-b7lsbgpjc13dg2g32g9btb02m16m3l3j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

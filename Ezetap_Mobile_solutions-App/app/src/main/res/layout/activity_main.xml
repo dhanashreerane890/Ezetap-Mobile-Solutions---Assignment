@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".UserDetailsActivity">
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:hint="Enter Username"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginTop="20dp"
+        app:helperText="Required*"
+        app:counterEnabled="true"
+        app:counterMaxLength="30"
+        app:errorIconDrawable="@drawable/ic_baseline_error_24"
+        app:errorEnabled="true"
+        app:helperTextTextColor="@color/teal_700"
+        android:id="@+id/textInputLayoutUsername"
+        app:endIconMode="clear_text"
+        android:layout_height="wrap_content">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:id="@+id/etUsername"
+            android:maxLength="30"
+            android:textColor="@color/teal_700"
+            android:layout_height="wrap_content"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:id="@+id/textInputLayoutPassword"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="25dp"
+        app:counterEnabled="true"
+        app:counterMaxLength="10"
+        app:errorEnabled="true"
+        app:endIconMode="password_toggle"
+        app:errorIconDrawable="@drawable/ic_baseline_error_24"
+        app:helperText="Required*"
+        app:helperTextTextColor="@color/teal_700"
+        app:errorTextColor="@color/teal_700"
+        android:hint="Enter Password">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:id="@+id/etPassword"
+            android:inputType="textPassword"
+            android:maxLength="10"
+            android:textColor="@color/teal_700"
+            android:layout_height="wrap_content"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="25dp"
+        android:hint="Enter Email"
+        app:helperText="Required*"
+        app:counterEnabled="true"
+        app:counterMaxLength="30"
+        app:errorIconDrawable="@drawable/ic_baseline_error_24"
+        app:errorEnabled="true"
+        app:helperTextTextColor="@color/teal_700"
+        android:id="@+id/textInputLayoutEmail"
+        app:endIconMode="clear_text"
+        android:layout_height="wrap_content">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:id="@+id/etEmail"
+            android:maxLength="30"
+            android:singleLine="true"
+            android:textColor="@color/teal_700"
+            android:layout_height="wrap_content"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:hint="Choose Birth Date"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginTop="15dp"
+        app:errorEnabled="true"
+        app:helperTextTextColor="@color/teal_700"
+        android:id="@+id/textInputLayoutChooseDate"
+        app:endIconMode="clear_text"
+        android:layout_height="wrap_content">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:id="@+id/etChooseDate"
+
+            android:textColor="@color/teal_700"
+            android:layout_height="wrap_content"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/btnProceed"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center"
+        android:background="@drawable/rectangle_bg"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="Proceed"/>
+
+
+
+
+</LinearLayout>
